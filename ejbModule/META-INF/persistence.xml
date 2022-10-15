@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="PDT">
+		<class>model.AccionConstancia</class>
+		<class>model.AccionReclamo</class>
+		<class>model.Analista</class>
+		<class>model.Area</class>
+		<class>model.Constancia</class>
+		<class>model.Departamento</class>
+		<class>model.Estado</class>
+		<class>model.Estudiante</class>
+		<class>model.Evento</class>
+		<class>model.Genero</class>
+		<class>model.Justificacion</class>
+		<class>model.Localidad</class>
+		<class>model.Reclamo</class>
+		<class>model.Tutor</class>
+		<class>model.Usuario</class>
+	</persistence-unit>
+</persistence>
